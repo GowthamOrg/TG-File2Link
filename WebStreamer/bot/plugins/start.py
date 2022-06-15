@@ -26,7 +26,7 @@ async def start(b, m):
                 if user.status == "banned":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TeleRoid14).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/rex_bots_support).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -56,9 +56,9 @@ async def start(b, m):
             text="🙋 Hello!\n\nI am a Simple Telegram File to Public link generator bot.\n\nI can generate Direct URL of any Telegram Files Or Videos for Downloading & Online Streaming!!!\n\n☛ /help for More\n\nNB:🔞 Don't forward Porn Files to me, You will Get Permanent B A N.\n\nSend me any file & see the magic!",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup"), InlineKeyboardButton("⭕ Support ⭕", url="https://t.me/TeleRoid14")],
-                    [InlineKeyboardButton("👥 BotList", url="https://t.me/joinchat/t1ko_FOJxhFiOThl"), InlineKeyboardButton("♻ Github", url="https://github.com/PredatorHackerzZ")],
-                    [InlineKeyboardButton("About Meh ♐", url="https://t.me/TheTeleRoid")]
+                    [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/rex_botz"), InlineKeyboardButton("⭕ Support ⭕", url="https://t.me/TeleRoid14")],
+                    [InlineKeyboardButton("👥 BotList", url="https://t.me/Rex_Botz/94"), InlineKeyboardButton("♻ Github", url="https://github.com/PredatorHackerzZ")],
+                    [InlineKeyboardButton("About Meh ♐", url="https://t.me/rex_bots_support")]
                 ]
             ),
             disable_web_page_preview=True
@@ -70,7 +70,7 @@ async def start(b, m):
                 if user.status == "banned":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TeleRoid14).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/rex_bots_support).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -78,7 +78,7 @@ async def start(b, m):
             except UserNotParticipant:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Please Join My Updates Channel to use this Bot!**\n\nDue to Overload, Only Channel Subscribers can use the Bot!\n\n@TheTeleRoid",
+                    text="**Please Join My Updates Channel to use this Bot!**\n\nDue to Overload, Only Channel Subscribers can use the Bot!\n\n@Rex_Botz",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -86,7 +86,7 @@ async def start(b, m):
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh 🔄",
-                                                     url=f"https://t.me/TeleRoid_File2Link_Bot?start=PredatorHackerzZ_{usr_cmd}")
+                                                     url=f"https://t.me/FileStreamRexRoBot?start=Rex_Botz_{usr_cmd}")
                             ]
                         ]
                     ),
@@ -96,7 +96,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/TeleRoid14).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/rex_bots_support).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -146,7 +146,7 @@ async def help_handler(bot, message):
             if user.status == "banned":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TeleRoid14).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/rex_bots_support).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -168,7 +168,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/TeleRoid14).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/rex_bots_support).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -178,9 +178,9 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup"), InlineKeyboardButton("😇 Support", url="https://t.me/TeleRoid14")],
-                [InlineKeyboardButton("🚸 Powered By ", url="https://t.me/MoviesFlixers_DL"), InlineKeyboardButton("💰 Donate", url="https://t.me/PayForBotZ")],
-                [InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/TheTeleRoid")]
+                [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/rex_botz"), InlineKeyboardButton("😇 Support", url="https://t.me/rex_bots_support")],
+                [InlineKeyboardButton("🚸 Powered By ", url="https://t.me/FluxPlay"), InlineKeyboardButton("💰 Donate", url="https://t.me/benwolf24")],
+                [InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/Benwolf24")]
             ]
         )
     )
@@ -199,7 +199,7 @@ async def about_handler(bot, message):
             if user.status == "banned":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TeleRoid14).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/rex_bots_support).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -221,7 +221,7 @@ async def about_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/TeleRoid14).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/rex_bots_support).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
